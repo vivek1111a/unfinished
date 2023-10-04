@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+    width: 80%;
+    margin: 10%;
+    margin-top: 20px;
+}
+.firstlogo {
+    display:flex;
+    flex-direction: column;
+}
+.firstlogo img {
+    align-self: center;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #888;
+}
+.firstlogo h1 {
+    align-self: center;
+    font-weight: 300;
+    text-shadow: 3px 3px #dddddd;
+}
+.header1 {
+    background-color: aqua;
+    display: flex;
+    padding: 4px 0px;
+}
+.header1 div {
+    padding: 0px 5px;
+}
+.all-header2, .cardscore {
+    margin-left: auto;
+    padding-left: 5px;
+}
+.header2 {
+    background-color: lightblue;
+    display: flex;
+    padding: 4px 0px;
+}
+.header2 div{
+    padding: 0px 5px;
+}
+.mainmatches {
+    background-color: rgb(83, 83, 255);
+    display: flex;
+    margin: 4px;
+    overflow-x: scroll;
+}
+.card {
+    background-color: white;
+    width: 250px;
+    margin: 2px;
+}
+.cardtitle {
+    font-size: 12px;
+    display: flex;
+    margin: 2px;
+    align-items: center;
+}
+.cardname {
+    padding-left: 8px;
+    white-space: nowrap;
+    width: 220px;
+    overflow: hidden;
+    margin: 2px;
+}
+.cardtitle-end {
+    font-size: 13px;
+    background-color: #464646;
+    color: #fff;
+    border-radius: 15px;
+    padding: 4px 5px;
+}
+#lista {
+        font-size: 13px;
+        background-color: #f80606;
+        color: #fff;
+        border-radius: 15px;
+        padding: 4px 5px;
+        white-space: nowrap;
+}
+/* #score {
+    font-weight: 400;
+} */
+
+.team {
+    display: flex;
+    padding: 10px;
+}
+.team img {
+    height: 18px;
+    width: 27px;
+}
+.cardteams {
+    margin-left: 10px;
+}
+.cardfooter {
+    display: flex;
+    background-color: #ccc;
+}
+.cardfooteritem {
+    padding: 6px 6px;
+    margin-left:auto;
+    font-size: 13px;
+}
+
+.articles {
+    background-color: yellow;
+}
+.mainarticles {
+    background-color: yellowgreen;
+}
+.mainvideos {
+    background-color: rgb(255, 255, 116);
+}
