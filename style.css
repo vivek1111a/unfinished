@@ -23,22 +23,21 @@ body {
 .header1 {
     background-color: aqua;
     display: flex;
-    padding: 4px 0px;
 }
 .header1 div {
-    padding: 0px 7px;
+    padding: 5px 7px;
 }
 .all-header2, .cardscore {
     margin-left: auto;
     padding-left: 5px;
 }
 .header2 {
-    background-color: lightblue;
+    background-color: rgb(108, 218, 255);
     display: flex;
-    padding: 4px 0px;
+    /* padding: 4px 0px; */
 }
 .header2 div{
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size: 13px;
     text-align: center;
 }
@@ -170,8 +169,8 @@ body {
 }
 .mainvideos h1 {
     color: rgb(11, 161, 161);
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0;
+    padding: 10px;
 }
 .mainvideos img {
     width: 94%;
@@ -184,7 +183,10 @@ body {
 }
 @media (max-width: 700px) {
     #maincontainer {
-        display: inline;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 10px;
+        margin-top: 10px;
     }
 }
 
@@ -192,3 +194,16 @@ body {
 .header1 {
     overflow:auto;
 }}
+
+.articlecard-text:hover, .mainarticle-card-sectitle:hover, .mainvideo-title:hover {
+    text-decoration: underline;
+}
+
+.header2 div:hover {
+    background-color: rgba(84, 165, 193, 0.77);
+    cursor: pointer;
+}
+.header1 div:hover {
+    background-color: rgb(0, 224, 224);
+    cursor: pointer;
+}
