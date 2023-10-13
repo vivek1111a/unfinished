@@ -63,6 +63,7 @@ body {
     margin: 2px;
     cursor: pointer;
 }
+
 .cardtitle {
     font-size: 12px;
     display: flex;
@@ -219,5 +220,15 @@ a {
     width: 100%;
     margin: 0%;
     margin-top: 19px;
+    }
+}
+.card:hover {
+    position:inherit;
+    width: 254px;
+    margin: 0px;
+    height: 136.8px;
+    .cardfooter {
+        position: relative;
+        top: 4px;
     }
 }
