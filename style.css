@@ -78,18 +78,14 @@ body {
     margin: 2px;
 }
 .cardtitle-end {
-    font-size: 13px;
+    font-size: 10px;
     background-color: #464646;
     color: #fff;
     border-radius: 15px;
     padding: 4px 5px;
 }
 #lista {
-        font-size: 13px;
         background-color: #f80606;
-        color: #fff;
-        border-radius: 15px;
-        padding: 4px 5px;
         white-space: nowrap;
 }
 /* #score {
@@ -224,6 +220,7 @@ a {
 }
 .card:hover {
     position:inherit;
+    transition-duration: 200ms;
     width: 254px;
     margin: 0px;
     height: 136.8px;
