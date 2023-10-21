@@ -119,6 +119,10 @@ a {
     color: black;
 }
 .hover105:hover {
-    width: 105px;
+    aspect-ratio: 1;
     height: 105px;
+}
+.hr {
+    width: auto;
+    height: 2px;
 }
