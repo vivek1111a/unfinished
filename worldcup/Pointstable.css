@@ -3,22 +3,43 @@
 }
 .table {
     display: grid;
-    grid-template-columns: 40% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 30%  10% 10% 10% 10% 10% 10% 10%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .top {
     background-color: rgba(0, 0, 0, 0.133);
     padding: 5px;
+    color: rgb(75, 75, 75);
 }
 .teaminfo {
     color: blue;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .teaminfo img {
-    padding-right: 10px;
+    margin-right: 10px;
     width: 25px;
     aspect-ratio: 1.33;
+    border-radius: 5px;
 }
 .table-item {
     padding-top: 10px;
+    padding-bottom: 2%;
+    padding-bottom: 30px;
+}
+.hrt {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    height: 0.5px;
+    width: 90%;
+    margin-left: 2%;
+    background-color: rgba(0, 0, 0, 0.152);
+    border-radius: 1px;
+}
+@media (max-width:800px) {
+    .table{
+        margin: 0;
+    }
 }
