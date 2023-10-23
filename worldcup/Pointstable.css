@@ -17,6 +17,7 @@
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-wrap: nowrap;
 }
 .teaminfo img {
     margin-right: 10px;
