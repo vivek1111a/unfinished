@@ -1,0 +1,24 @@
+.subtitle {
+    color: rgba(0, 0, 0, 0.893);
+}
+.table {
+    display: grid;
+    grid-template-columns: 40% 10% 10% 10% 10% 10% 10%;
+}
+.top {
+    background-color: rgba(0, 0, 0, 0.133);
+    padding: 5px;
+}
+.teaminfo {
+    color: blue;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.teaminfo img {
+    padding-right: 10px;
+    width: 25px;
+    aspect-ratio: 1.33;
+}
+.table-item {
+    padding-top: 10px;
+}
