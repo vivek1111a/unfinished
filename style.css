@@ -65,6 +65,7 @@ body {
     width: 250px;
     margin: 2px;
     cursor: pointer;
+    transition: width 0.5s, height 0.5s, margin 0.5s;
 }
 
 .cardtitle {
@@ -222,15 +223,14 @@ a {
     }
 }
 .card:hover {
-    position:inherit;
-    transition-duration: 200ms;
+    /* position:inherit;
     width: 254px;
     margin: 0px;
     height: 136.8px;
     .cardfooter {
         position: relative;
         top: 4px;
-    }
+    } */
 }
 .hover105:hover {
     aspect-ratio: 1;
